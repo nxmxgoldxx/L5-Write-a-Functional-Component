@@ -1,7 +1,6 @@
 // import the react library to write JSX
 import React from "react";
 
-
 /* write an arrow function called "NameTag" that returns JSX
 The JSX returned should consist of:
   - a div element with className attribute of "name-tag" and three nested children elements:
@@ -17,7 +16,6 @@ const NameTag = (props) => (
     <h2 className="name">{props.name}</h2>
   </div>
 );
-
 
 export default NameTag;
 /* export our functional component definition to be 
