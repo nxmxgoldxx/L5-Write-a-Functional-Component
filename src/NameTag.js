@@ -10,11 +10,11 @@ The JSX returned should consist of:
     - a h2 element with className attribute of "name" and the inner text of your name
 */
 
-const NameTag = () => (
+const NameTag = (props) => (
   <div className="name-tag">
     <h3 className="title">HELLO</h3>
     <p className="subtitle">This is brought to you by</p>
-    <h2 className="name">Designs By Nome</h2>
+    <h2 className="name">{props.name}</h2>
   </div>
 );
 
