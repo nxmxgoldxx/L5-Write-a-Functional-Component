@@ -13,7 +13,7 @@ const NameTag = () => (
   <div className="name-tag">
     <h3 className="title">HELLO</h3>
     <p className="subtitle">This is brought to you by</p>
-    <h2 className="name">Designs By Nome</h2>
+    <h3 className="name">Designs By Nome</h3>
   </div>
 );
 
