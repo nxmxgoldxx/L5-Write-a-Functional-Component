@@ -1,5 +1,5 @@
 // import the react library to write JSX
-import React from "react";
+import React, {Component} from "react";
 
 /* write an arrow function called "NameTag" that returns JSX
 The JSX returned should consist of:
